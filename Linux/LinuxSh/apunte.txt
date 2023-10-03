@@ -1,0 +1,22 @@
+# Limpiar consola -> clear / ctrl + l
+
+# Instalar algo -> sudo apt install "paquete"
+# Eliminar -> sudo apt remove "paquete" / sudo apt autoremove -> se recomienda luego de eliminar una aplicación.
+
+# DIRECTORIOS:
+Moverme entre directorios -> cd directorio // cd .. // (space) cd
+Crear directorio -> mkdir directorio
+Crear directorio desde otra carpeta -> mkdir /home/directorio *lo mismo para eliminar*
+Eliminar directorio -> rmdir directorio
+
+# ARCHIVOS:
+Crear un archivo -> touch archivo.txt / archivo.py /archivo.etc o sin el '.' y por default devuelve un txt.
+Eliminar un archivo -> rm archivo.txt
+Ver archivo -> cat archivo.txt
+Abrir y editar archivo -> nano archivo.txt // vim archivo.txt
+
+# LS:
+Ver lista de los archivos y directorios fuera del directorio -> ls /directorio 
+Ver lista de los archivos y directorios dentro del directorio -> ls
+
+
