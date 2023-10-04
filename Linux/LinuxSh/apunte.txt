@@ -17,9 +17,17 @@ Ver archivo con espacios de por medio -> cat "archivo con espacios" // cat *arch
 Abrir y editar archivo -> nano archivo.txt // vim archivo.txt
 
 
-
 # LS:
 Ver lista de los archivos y directorios fuera del directorio -> ls /directorio 
 Ver lista de los archivos y directorios dentro del directorio -> ls
+ls -l 
+Permisos -> -rwx (es un archivo comienza con -)
+            drwx (es un directorio comienza con d)
 
+# sudo CHMOD
+chmod +x archivo/directorio
+chmod +r archivo/directorio
+chmod 777 archivo/directorio
+
+-rwx (r=4, w=2, x=1) -> se puede hacer numerico por eso el 777
 
