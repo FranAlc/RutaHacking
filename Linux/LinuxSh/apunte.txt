@@ -70,3 +70,12 @@ grep "pass" archivo.txt
 grep "pass" archivo.txt -> elimina el "pass" si encuentra la palabra en el archivo.txt
 grep [patrón] file
 grep -v [patrón] file 
+
+#SORT
+Ordena las lineas de los archivos de entrada a partir de opciones de ordenación.
+sort [opciones] [archivo]
+
+-t "separador"
+-k número (a partir de que num de columna)
+-n ordena por valor numérico
+-r invierte el orden
