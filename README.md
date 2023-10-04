@@ -1,5 +1,5 @@
 # Ruta de aprendizaje de Ciberseguridad.
-### En este repositorio se alojaran scripts, muestra de explotación a máquinas, uso de herramientas, información y detalles de temas particulares orientados al hacking.
+### En este repositorio se alojarán scripts, muestra de explotación a máquinas, uso de herramientas, información y detalles de temas particulares orientados al hacking.
 #### Algunos ejemplos:
 > ### Librería de Python + herramienta Wireshark:
 
