@@ -63,3 +63,8 @@ Devuelve por default las *últimas* 10 lineas -> tail archivo.txt
 || -> tail -5 archivo.txt (devuelve las últimas 5 lineas).
 
 cat archivo.txt | head -3 (del archivo.txt devuelve las primeras 3 líneas).
+
+#GREP
+El comando grep permite buscar, dentro de los archivos, las líneas que concuerdan con un patrón.
+
+grep [patrón] file
