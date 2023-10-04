@@ -16,7 +16,8 @@ Ver archivo -> cat archivo.txt
 Ver archivo con espacios de por medio -> cat "archivo con espacios" // cat *archivo*con*espacios*
 Abrir y editar archivo -> nano archivo.txt // vim archivo.txt
 Ver archivo que su nombre comienza con un - -> cat ./-
-
+#CAT (despliega el contenido)
+#MORE (despliega por partes)
 
 # LS:
 Ver lista de los archivos y directorios fuera del directorio -> ls /directorio 
