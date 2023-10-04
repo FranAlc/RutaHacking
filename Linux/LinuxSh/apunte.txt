@@ -32,3 +32,18 @@ chmod 777 archivo/directorio
 
 -rwx (r=4, w=2, x=1) -> se puede hacer numerico por eso el 777
 
+# FIND
+
+find (directorio) -type f/d -name "archivo"
+-type -> file:f / directory:d
+-size -> tamaño del archivo
+-name -> nombre del archivo
+-user -> nombre del usuario // group -> nombre del grupo 
+
+En caso que devuelva un listado de archivos basura/errores utilizar ( 2>/dev/null )
+
+find / -> búsqueda  en el directorio raiz del sistema de archivos.
+find . -> búsqueda en el directorio actual.
+
+#WC
+cat archivo.txt | wc -l -> me devuelve la cantidad de lineas que hay
