@@ -75,7 +75,16 @@ grep -v [patrón] file
 Ordena las lineas de los archivos de entrada a partir de opciones de ordenación.
 sort [opciones] [archivo]
 
--t "separador"
+-t "separador" (especifica el separador de las columnas)
 -k número (a partir de que num de columna)
 -n ordena por valor numérico
 -r invierte el orden
+
+#Ej:cat archivo.txt 
+    Juan,Balam,100,Física
+    Bautista,May,85,Física
+
+sort -t ',' -k 1 archivo.txt (lo que hago aca es ordenar de la primer columna aquella palabra antes de la ',').
+
+>>Bautista,May,85,Física
+>>Juan,Balam,100,Física
