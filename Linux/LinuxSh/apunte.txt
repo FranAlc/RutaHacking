@@ -47,3 +47,7 @@ find . -> búsqueda en el directorio actual.
 
 #WC
 cat archivo.txt | wc -l -> me devuelve la cantidad de lineas que hay
+
+#Redirección de salida ">" o ">>"
+> La salida de un comando o programa la dirige a un archivo.
+>> La salida de un comando o programa rescribe el archivo.
