@@ -66,5 +66,7 @@ cat archivo.txt | head -3 (del archivo.txt devuelve las primeras 3 líneas).
 
 #GREP
 El comando grep permite buscar, dentro de los archivos, las líneas que concuerdan con un patrón.
-
+grep "pass" archivo.txt
+grep "pass" archivo.txt -> elimina el "pass" si encuentra la palabra en el archivo.txt
 grep [patrón] file
+grep -v [patrón] file 
