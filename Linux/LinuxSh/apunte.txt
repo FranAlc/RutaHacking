@@ -52,3 +52,14 @@ cat archivo.txt | wc -l -> me devuelve la cantidad de lineas que hay
 #Redirección de salida ">" o ">>"
 > La salida de un comando o programa la dirige a un archivo.
 >> La salida de un comando o programa rescribe el archivo.
+
+# HEAD Y TAIL
+#HEAD
+Devuelve por default las *primeras* 10 lineas -> head archivo.txt 
+Seleccionar la cant. de lineas *primeras* que quiero que devuelva -> head -5 archivo.txt (devuelve las primeras 5).
+
+#TAIL
+Devuelve por default las *últimas* 10 lineas -> tail archivo.txt
+|| -> tail -5 archivo.txt (devuelve las últimas 5 lineas).
+
+cat archivo.txt | head -3 (del archivo.txt devuelve las primeras 3 líneas).
