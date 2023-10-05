@@ -91,7 +91,11 @@ sort -t ',' -k 1 archivo.txt (lo que hago aca es ordenar de la primer columna aq
 
 # TR 
 
-echo "hola mundo" | tr aeiou AEIOU
 #sustituye por las minúsculas por las mayúsculas
+echo "hola mundo" | tr aeiou AEIOU
 >> hOlA mUndO
+
+#borrar -d
+echo hola mundo | tr -d a
+>>hol mundo
 
