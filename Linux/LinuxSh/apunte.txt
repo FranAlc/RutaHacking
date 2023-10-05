@@ -88,3 +88,10 @@ sort -t ',' -k 1 archivo.txt (lo que hago aca es ordenar de la primer columna aq
 
 >>Bautista,May,85,Física
 >>Juan,Balam,100,Física
+
+# TR 
+
+echo "hola mundo" | tr aeiou AEIOU
+#sustituye por las minúsculas por las mayúsculas
+>> hOlA mUndO
+
