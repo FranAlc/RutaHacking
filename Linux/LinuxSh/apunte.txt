@@ -99,7 +99,14 @@ echo "hola mundo" | tr aeiou AEIOU
 echo hola mundo | tr -d a
 >>hol mundo
 
-#elimina letrar repetidas -s
+#elimina letras repetidas -s
 echo holaa munnddooo | tr -s ando
 >>hola mundo
+
+#cambiar todo lo que no existe por un caracter
+echo hola mundo | tr -c aeiou '-' (si no hay 'aeiou' en el texto lo cambia por un -)
+>>-o-a--u---o
+
+
+
 
