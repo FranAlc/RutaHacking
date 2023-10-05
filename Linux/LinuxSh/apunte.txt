@@ -99,3 +99,7 @@ echo "hola mundo" | tr aeiou AEIOU
 echo hola mundo | tr -d a
 >>hol mundo
 
+#elimina letrar repetidas -s
+echo holaa munnddooo | tr -s ando
+>>hola mundo
+
